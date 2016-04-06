@@ -10,3 +10,12 @@ a.film:visited { font-family: "Times New Roman", Times, serif; font-size: small;
 a.film:hover { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
 a.film:active { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
 .text {  font-family: Helvetica, Arial, Verdana; font-size: small; color: #837E7C}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 1.0em;
+  margin-right: 1.em;
+  border-style: inset;
+  border-width: 1px;
+}
