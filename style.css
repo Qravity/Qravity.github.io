@@ -1,6 +1,6 @@
 body {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
-.name {  font-family: Helvetica, Arial, Verdana; font-size: large; font-weight: bold; color: #5C5858}
-.objects {  font-family: Helvetica, Arial, Verdana; font-size: medium; font-weight: bold; color: #5C5858}
+.name {  font-family: Helvetica, Arial, Verdana; font-size: large; font-weight: bold; color: #848482}
+.objects {  font-family: Helvetica, Arial, Verdana; font-size: medium; font-weight: bold; color: #848482}
 a.menu:link {  font-family: Helvetica, Arial, Verdana; font-size: medium; font-weight: bold; color: #3D46B7; text-decoration: none; padding-left: 6px}
 a.menu:visited { font-family: Helvetica, Arial, Verdana; font-size: medium; font-weight: bold; color: #3D46B7; text-decoration: none }
 a.menu:hover { font-family: Helvetica, Arial, Verdana; font-size: medium; font-weight: bold; color: #fff; text-decoration: none ; background-color: #7A80CF}
@@ -9,4 +9,4 @@ a.film:link {  font-family: "Times New Roman", Times, serif; font-size: small; f
 a.film:visited { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #999999 ; text-decoration: none}
 a.film:hover { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
 a.film:active { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
-.text {  font-family: Helvetica, Arial, Verdana; font-size: small; color: #333}
+.text {  font-family: Helvetica, Arial, Verdana; font-size: small; color: #848482}
