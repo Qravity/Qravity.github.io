@@ -1,20 +1,21 @@
 body {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
-.name {  font-family: Helvetica, Arial, Verdana; font-size: medium; color: #837E7C}
-.objects {  font-family: Helvetica, Arial, Verdana; font-size: medium; color: #837E7C}
-a.menu:link {  font-family: Helvetica, Arial, Verdana; font-size: medium; color: #837E7C; text-decoration: none; padding-left: 6px}
-a.menu:visited { font-family: Helvetica, Arial, Verdana; font-size: medium; color: #837E7C; text-decoration: none }
-a.menu:hover { font-family: Helvetica, Arial, Verdana; font-size: medium;  color: #837E7C; text-decoration: none }
+.name {  font-family: Helvetica, Arial, Verdana; font-size: medium; color: #565051}
+.objects {  font-family: Helvetica, Arial, Verdana; font-size: medium; color: #565051}
+a.menu:link {  font-family: Helvetica, Arial, Verdana; font-size: medium; color: #565051; text-decoration: none; padding-left: 6px}
+a.menu:visited { font-family: Helvetica, Arial, Verdana; font-size: medium; color: #565051; text-decoration: none }
+a.menu:hover { font-family: Helvetica, Arial, Verdana; font-size: medium;  color: #565051; text-decoration: none }
 a.menu:active { font-family: Helvetica, Arial, Verdana; font-size: medium;  color: #fff; text-decoration: none }
 a.film:link {  font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #999999; text-decoration: none}
 a.film:visited { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #999999 ; text-decoration: none}
 a.film:hover { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
 a.film:active { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
-.text {  font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C}
-.desc {  font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C}
-.desc:link { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C; text-decoration: none}
-.desc:visited { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C; text-decoration: none}
-.desc:hover { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C; text-decoration: none}
-.desc:active { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C; text-decoration: none}
+.head {  font-family: Helvetica, Arial, Verdana; font-size: small; color: #565051}
+.text {  font-family: Cambria, Candara, Optima, Helvetica, Arial, Verdana; font-size: smaller; color: #565051}
+.desc {  font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051}
+.desc:link { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
+.desc:visited { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
+.desc:hover { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
+.desc:active { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
 hr {
   display: block;
   margin-top: 0.5em;
