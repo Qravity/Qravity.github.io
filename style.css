@@ -9,7 +9,7 @@ a.film:link {  font-family: "Times New Roman", Times, serif; font-size: small; f
 a.film:visited { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #999999 ; text-decoration: none}
 a.film:hover { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
 a.film:active { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
-.text {  font-family: Helvetica, Arial, Verdana; font-size: small; color: #837E7C}
+.text {  font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C}
 .desc {  font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C}
 .desc:link { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C; text-decoration: none}
 .desc:visited { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #837E7C; text-decoration: none}

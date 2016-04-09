@@ -14,17 +14,18 @@
     
     <body BGCOLOR="#ffffff">
         <br>
-        <table WIDTH="450" BORDER="0" CELLSPACING="0" CELLPADDING="10" ALIGN="CENTER">
+        <table WIDTH="650" BORDER="0" CELLSPACING="0" CELLPADDING="10" ALIGN="CENTER">
         <tr> 
           <td> 
               <center CLASS="objects">
-                  <!--<span CLASS="name">Andre S. Yoon</span><br>-->
-                  <a HREF="#contact1" CLASS="menu">Contact</a>
                   <a HREF="#project1" CLASS="menu">Projects</a> 
                   <a HREF="#publication1" CLASS="menu">Publications</a>
-                  <a HREF="#talk1" CLASS="menu">Talks</a> 
-                  <a HREF="#link1" CLASS="menu">Links</a>
+                  <a HREF="#talk1" CLASS="menu">Talks</a>
+                  <a HREF="#link1" CLASS="menu">CV</a>
+                  <a HREF="#contact1" CLASS="menu">Contact</a>
+                  <!--<a HREF="#link1" CLASS="menu">Links</a>-->
                   <hr>
+                  <!--<span CLASS="name">Andre S. Yoon</span><br>-->
               </center>
           </td>
         </tr>
@@ -34,44 +35,48 @@
         <tr> 
           <td> 
             <table WIDTH="650" BORDER="0" CELLSPACING="0" CELLPADDING="10" ALIGN="CENTER" CLASS="text">
-                <tr> 
-                    <!--<td><h2>What is Lorem Ipsum?</h2>-->
-                    <td><p><strong>About</strong></p>
-                        <div>Data-intensiveness, complex system, and machine intelligence are the central themes of my research
-                            and development activities. My primary research interest lies in making statistical inference based
-                            on the analysis of data from a wide range of observations that span from sub-nanoscale physical system
-                            to larger structures in science and technology. Use of machine intelligence and the latest computing
-                            technologies enable large-scale modeling and visualization that often
-                            leads us to amazing insightful understandings. </div><br>
-                        <a name="contact1"></a>
-                    <p><strong> Contact </strong><br></p>
-                    Qravity at gmail dot com<br>
-                    <br><br>
-                    <a name="project1"></a>
-                    <p><strong>Projects</strong><br></p>
-                    <table BORDER="0" STYLE="width:100%" CLASS="text">
-                        <!--<col width="30%"> <col width="70%"> -->
-                        <tr>
-                            <td valign="middle" align="left" width=30%>
-                                <img src="images/yoursql.png" width="170" height="170"/>
-                            </td>
-                            <td widht=5%></td>
-                            <td class="desc"><b>YourSQL: A High-Performance Database System Leveraging Near-Data Processing</b><br><br>
-                                <div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr><td><br></td><td></td><td></td></tr>
-                        <tr>
-                            <td valign="middle" align="left" width=30%>
-                                <img src="images/iscmodel.png" width="170" height="170"/>
-                            </td>
-                            <td width=5%></td>
-                            <td class="desc"><b>Biscuit: A Framework for Near-Data Processing of Big Data Workloads</b><br><br>
-                                <div>
-                                    Description
-                                    <a href="http://rd.springer.com/article/10.1140%2Fepjc%2Fs10052-012-1945-x?LI=true">
-                                    The European Physical Journal C 72 (3), 1-22</a>
+                <tr>
+                    <td><p><h4>About</h4></p>
+                        <div>
+                            Data-intensiveness, complex system, and machine intelligence are the major
+                            themes of my research. My primary research interest lies in making statistical inference
+                            based on the analysis of data from a wide range of observations that span from sub-nanoscale
+                            physical system to larger structures in science and technology. Use of machine intelligence
+                            and the latest computing technologies in my research and development enable large-scale modeling
+                            and visualization that often lead to amazing insightful understandings.
+                        </div><br>
+                        <br><br>
+                        <a name="project1"></a>
+                        <p><h4>Projects</h4></p>
+                        <table BORDER="0" STYLE="width:100%">
+                            <tr>
+                                <td valign="middle" align="left" width=30%>
+                                    <img src="images/yoursql.png" width="170" height="170"/>
+                                </td>
+                                <td widht=5%></td>
+                                <td class="desc"><b>
+                                    YourSQL: A High-Performance Database System Leveraging Near-Data Processing</b><br><br>
+                                    <div> Our team has successfully integrated the NDP framework (Biscuit) into a modern
+                                        database system and showed the integrated system is capable of accelerating data-intensive
+                                        applications nearly up to x160 and achieving significant energy saving. <br><br>
+
+                                        Manuscript in preparation (see <a href="http://www.flashmemorysummit.com">Flash Submit 2015</a>)
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr><td><br></td><td></td><td></td></tr>
+                            <tr>
+                                <td valign="middle" align="left" width=30%>
+                                    <img src="images/biscuit.png" width="170" height="170"/>
+                                </td>
+                                <td width=5%></td>
+                                <td class="desc"><b>Biscuit: A Framework for Near-Data Processing of Big Data Workloads</b><br><br>
+                                    <div> Can a storage system become intelligent? By leveraging in-storage compute capability of
+                                        a modern solid-state drive (SSD), our team has designed and  built a novel Near-data processing
+                                        (NDP) framework that can be programmed to perform user-defined operations within storage.<br><br>
+
+                                        To appear in <a href="http://isca2016.eecs.umich.edu">
+                                            Proceedings of the 43rd International Symposium on Computer Architectures, ISCA 2016.</a>
                                 </div>
                             </td>
                         </tr>
@@ -81,13 +86,17 @@
                                 <img src="images/pssd.jpg" width="170" height="170"/>
                             </td>
                             <td width=5%></td>
-                            <td class="desc"><b>SAMSUNG V-NAND SSD</b><br><br>
+                            <td class="desc"><b>Developing FTL for Samsung V-NAND SSD</b><br><br>
                                 <div>
-                                    Description <br><br>
+                                    Flash Translation Layer (FTL) is one of the most important software engines inside
+                                    flash memory products. I have developed and implemented a series of new FTL algorithms
+                                    that have improved performance of Samsung's major SSD products including the latest
+                                    portable SSD T1. <br><br>
+
                                     <a href="http://www.samsung.com/global/business/semiconductor/minisite/SSD/global/">
-                                        Official SAMSUNG SSD website<a><br>
-                                        <a href="http://www.cnet.com/products/samsung-portable-ssd-t1/">
-                                            CNET review on SAMSUNG Portable SSD<a>
+                                        Official SAMSUNG SSD website</a><br>
+                                    <a href="http://www.cnet.com/products/samsung-portable-ssd-t1/">
+                                        CNET review on SAMSUNG Portable SSD</a>
                                 </div>
                             </td>
                         </tr>
@@ -100,9 +109,12 @@
                             <td class="desc"><b>Study of high-p<sub>T</sub> charged particle suppression in PbPb
                                 compared to pp collisions at &radic;sNN = 2.76 TeV</b><br><br>
                                 <div>
-                                    Description<br><br>
+                                    Jet quenching is an intriguing property of a new state of matter that distinguishes the new
+                                    state from ordinary nuclear matter state. We measured the jet quenching over an unprecedentedly
+                                    wide momentum range from the collisions of heavy nuclei at the Large Hadron Collider (LHC). <br><br>
+
                                     <a href="http://rd.springer.com/article/10.1140%2Fepjc%2Fs10052-012-1945-x?LI=true">
-                                    The European Physical Journal C 72 (3), 1-22</a>
+                                        The European Physical Journal C 72 (3), 1-22</a> [Cover highlight!]
                                 </div>
                             </td>
                         </tr>
@@ -115,7 +127,10 @@
                             <td class="desc"><b>Charged particle transverse momentum spectra in pp collisions at 0.9 and 7 TeV
                                 and interpolated spectra at 2.76 TeV</b><br><br>
                                 <div>
-                                    Description<br><br>
+                                    We have measured the particle production in the collisions of proton-proton at the
+                                    center-of-mass energy  of 0.9 and 7 TeV. Along with the  other measurements at different
+                                    energies, we studied an phenomenological scaling of particle production. <br><br>
+
                                     <a href="http://rd.springer.com/article/10.1007/JHEP08(2011)086">
                                     Journal of High Energy Physics 2011 (8), 1-39</a>
                                 </div>
@@ -145,10 +160,11 @@
                             <td width=5%></td>
                             <td class="desc"><b>Single-inclusive production of large-p<sub>T</sub> charged particles in hadronic collisions at TeV energies and perturbative QCD predictions </b><br><br>
                                 <div>
-                                    This work disputes the surprisingly excessive particle production at large p<sub>T</sub>
-                                    measured by CDF collaboration based on the next-to-leading order (NLO) perturbative QCD
-                                    calculations as well as the phenomenological scaling. The CDF result at large p<sub>T</sub>
-                                    was withdrawn in reaction to this work and others. <br><br>
+                                    Based on the next-to-leading order (NLO) perturbative QCD calculations as well as the
+                                    phenomenological scaling, we questioned the surprisingly large excess of produced particle
+                                    at large p<sub>T</sub> measured by CDF collaboration The CDF result at large p<sub>T</sub>
+                                    was withdrawn in reaction to this work and others.<br><br>
+
                                     <a href="http://rd.springer.com/article/10.1007/JHEP06(2010)035">
                                         Journal of High Energy Physics 2010 (6), 1-25</a>
                                 </div>
@@ -188,27 +204,81 @@
                                 </div>
                             </td>
                         </tr>
-                    </table><br>
+                    </table><br><br>
                     <a name="publication1"></a>
                     <p><strong>Publications</strong><br></p>
-                    Publications go here<br>
+                    <div class="text">
+                        B. Gu, A.S. Yoon, D.-H. Bae, et al. <q>Biscuit: A Framework for Near-Data Processing of Big Data Workloads</q>,
+                        to appear in Proceedings of the 43rd International Symposium on Computer Architectures, ISCA 2016. <br><br>
+
+                        I. Jo, D.-H. Bae, A.S. Yoon, et al. <q>YourSQL: A High-Performance Database System Leveraging In-Storage
+                        Computing</q>, Submitted to 42nd International Conference on Very Large Database, VLDB 2016 <br><br>
+
+                        Y. Ki, et al. <q>In-Storage Computing: Ultimate Solution for Accelerating I/O Intensive Applications</q>,
+                        in Proceedings of Flash Memory Summit, 2015 <br><br>
+
+                        CMS Collaboration (as a lead analyzer), <q>Study of high-p<sub>T</sub> charged particle suppression in PbPb compared
+                        to pp collisions at &radic;sNN = 2.76 TeV</q>,  Eur. Phys. J. C (2012) 72:1945 <br><br>
+
+                        A.S. Yoon for the CMS collaboration, <q>Centrality and p<sub>T</sub> dependence of charged particle R<sub>AA</sub>
+                        in PbPb collisions at &radic;sNN = 2.76 TeV</q>, J.Phys.G38 124116 (2011) <br><br>
+
+                        CMS Collaboration (as a lead analyzer), <q>Charged particle transverse momentum spectra in pp collisions
+                        at 0.9 and 7 TeV and interpolated spectra at 2.76 TeV</q>, JHEP 08 (2011) 086 <br><br>
+
+                        CMS Collaboration, <q>Observation and studies of jet quenching in PbPb collisions at 2.76 TeV</q>,
+                        Phys. Rev.C 84, 024906 (2011) <br><br>
+
+                        CMS Collaboration, <q>Observation and studies of jet quenching in PbPb collisions at 2.76 TeV</q>,
+                        Phys. Rev.C 84, 024906 (2011) <br><br>
+
+                        F. Arleo, D. d&#39;Enterria, A.S. Yoon, <q>Single-inclusive production of large-p<sub>T</sub> charged particles in
+                        hadronic collisions at TeV energies and perturbative QCD predictions</q>, JHEP 06 (2010) 035 <br><br>
+
+                        A.S. Yoon, E .Wenger, G. Roland, <q>Convoluting jet spectra with fragmentation functions: a cross-check
+                        of the charged particle p<sub>T</sub> spectrum</q>, arXiv:1003.5928 (2010) <br><br>
+
+                        CMS Collaboration, <q>Transverse-momentum and pseudorapidity distributions of charged hadrons in pp
+                        collisions at &radic;s = 7 TeV</q>, Phys Rev Lett 105 (2010) 022002 <br><br>
+
+                        CMS Collaboration, <q>Transverse momentum and pseudorapidity distributions of charged hadrons in pp
+                        collisions at &radic;s = 0.9 and 2.36 TeV</q>, JHEP 02 (2010) 041 <br><br>
+
+                        Y. Chen, V. Chetluru, Y.J. Lee, C. Loizides, C. Roland, G. Roland, M.B. Tonjes, Y. Yilmaz, A.S. Yoon <q>
+                        Study of photon-tagged jet events in high-energy heavy ion collisions with CMS</q>,
+                        Eur. Phys. J. C4 (2009) 61:649-658 <br><br>
+
+                        L. Agostino et al. <q>Commissioning of the CMS High Level Trigger</q>, 2009 JINST 4 P10005 <br><br>
+                    </div>
+                    <br>
                     <a name="talk1"></a>
                     <p><strong>Talks</strong><br></p>
-                    Talks go here<br>
+                    <div class="text">
+                    </div>
                     <a name="link1"></a>
                     <p><strong>Links</strong><br></p>
                     Link go here<br>
                     Seaborn
+                    <a name="contact1"></a>
+                    <p><strong> Contact </strong><br></p>
+                    <font size="2">Andre S. Yoon, Ph.D. </font><br><br>
+                    Memory Solutions Lab <br>
+                    Samsung Electronics Co., Ltd. <br>
+                    DSR 16-0, Hwaseong, South Korea <br>
+                    Email: Qravity at gmail dot com <br>
                     <a name="others1"></a>
                     <p><strong>Others</strong><br></p>
                     <ul>
                         <li>I teach elementray school students how to code using Scratch!</li>
-                        <li>With Donghun Lee, I have been organizing an multidi forum of scientist and engineer.</li>
+                        <li>With Donghun Lee, I have been organizing an multidi forum of scientist and engineer.
+                        , where we cover a broad range of topics in science and technology from quantum computing to
+                        artificial intelligence.</li>
                     </ul>
                     </td>
               </tr>
 	      <tr><td><br><br><p align="center" style="font-size:10px;">Copyright &copy; 2016 Andre S. Yoon</p></td></tr>
-            </table>          </td>
+            </table>
+          </td>
         </tr>
       </table>
     </td>
