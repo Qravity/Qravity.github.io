@@ -10,12 +10,12 @@ a.film:visited { font-family: "Times New Roman", Times, serif; font-size: small;
 a.film:hover { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
 a.film:active { font-family: "Times New Roman", Times, serif; font-size: small; font-style: italic; color: #CCCCCC; text-decoration: none }
 .head {  font-family: Helvetica, Arial, Verdana; font-size: small; color: #565051}
-.text {  font-family: Cambria, Candara, Optima, Helvetica, Arial, Verdana; font-size: smaller; color: #565051}
-.desc {  font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051}
-.desc:link { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
-.desc:visited { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
-.desc:hover { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
-.desc:active { font-family: Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
+.text {  font-family: Cambria, Candara, Optima, Helvetica, Arial, Verdana; font-size: small; color: #565051}
+.desc {  font-family: Cambria, Baskerville, Goudy Old Style, Cambria, Helvetica, Arial, Verdana; font-size: smaller; color: #565051}
+.desc:link { font-family: Cambria, Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
+.desc:visited { font-family: Cambria, Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
+.desc:hover { font-family: Cambria, Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
+.desc:active { font-family: Cambria, Helvetica, Arial, Verdana; font-size: smaller; color: #565051; text-decoration: none}
 hr {
   display: block;
   margin-top: 0.5em;
